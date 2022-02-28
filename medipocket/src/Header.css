@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.empty{
+    background-color: #F0EFF5;
+     display: flex; 
+}
+
+
+.left_component{
+    position: fixed;
+    background-color: #333269;
+    width: 240px;
+    height: 100vh;
+    padding: 14px 14px ;  
+
+}
+
+.right_component{
+    display: flex;
+    height: 100vh;
+}
+
+
+
+
+
+.navbar{
+    color: white;
+
+
+}
+.image{
+    display: flex;
+    padding-bottom: 50px;
+}
+.menu{
+    display: flex;
+    position: absolute;
+    left:95%;
+    top: 34px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.logo{
+    background-color: #333269 !important;
+    height: 40px;
+    width: 150px;
+    margin-top: -2px;
+    padding-top: 4px;
+    
+}
+.header_search{
+    display: flex; 
+    margin-left: 300px;
+    align-items: center;
+    padding-top: 1px ;
+    
+    height: 90px;
+    color: black !important;
+    
+
+
+}
+
+
+.search_input{
+    width: 700px;
+    height: 40px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #11101d;
+
+}
+.header_searchIcon{
+    height: 25px !important;
+    z-index: 99; 
+    color:#11101d;
+    margin-left: -40px;
+    /* align-items: center; */
+}
+.header_dash{
+    display: flex;
+    position: relative;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    color: white;
+    align-items: center;
+    /* text-decoration:none; */
+    
+   
+}
+.header_text{
+    padding-right: 60px;
+    
+    
+}
+
+.item_link{
+    display: flex;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+._icon{
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+
+
+}
+.header_dash{
+
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.header_dash:hover{
+    background:white ; 
+    color: #11101d;
+
+}
+
+/* .right_component{ */
+    /* background-color: black; */
+/* } */
+
+.health_card{
+    display: flex;
+    padding-left: 100px;
+    background-color: white;
+    margin-top: 100px;
+    height: 300px !important;
+    width: 1000px;
+    padding-top: 20px;
+    margin-left: -680px;
+    border-radius: 12px;
+    
+    
+}
+.profile_name{
+    padding-top: 20px;
+    padding-right: 80px;
+    
+    
+}  
+
+.profile_name>p{
+    color:#333269;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 80px;
+    
+}
+.profile_name>span{
+    color: #333269;
+    font-size: 40px;
+    font-weight:600;
+}
+
+.details{
+    display: flex;
+    /* padding-right: 0px; */
+    
+}
+
+
+.age{
+    color: gray;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 80px;
+}
+
+.weight{
+    padding-top: 80px;
+}
+
+
+.bloodgroup{
+    padding-top: 80px;
+}
+
+.height{
+    color: gray;
+    padding-right:80px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bmi{
+    color:gray;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.vision{
+    padding-top: 80px;
+}

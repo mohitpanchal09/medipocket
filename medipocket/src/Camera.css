@@ -1,0 +1,22 @@
+.img__btn{
+    background-color:#333269 ;
+    color: white;
+    margin: 10px;
+    height: 50px;
+    width: 100px;
+    margin-top: 100px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+.Camera{
+    background-color: #F0EFF5;
+    height: 745px;
+}
+.Camera__bg{
+    
+    height: 300px;
+    width: 600px;
+    background-color: white;
+
+}

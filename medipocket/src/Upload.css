@@ -1,0 +1,50 @@
+.upload__container{
+    /* border: 2px solid black; */
+    padding-top: 50px;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-left: 550px;
+    margin-top: 100px;
+    align-content: center;
+    
+}
+.upload{
+    background-color: #F0EFF5;
+    height: 745px;
+    margin-top: 0px;
+    padding-top: 50px;
+    /* padding-bottom: ; */
+}
+.home{
+    background-color: #F0EFF5;
+}
+.uploadfile{
+    font-size:larger ;
+    font-weight: bold;
+    
+}
+.items__content{
+    /* margin-top: 50px!important; */
+    margin-left: 51px;
+    /* border: 2px solid black; */
+    width: 95%;
+}
+p{
+    margin-top: 30px;
+    color: gray;
+}
+.upload__button{
+    margin-top: 30px;
+    width : 270px; 
+    background-color: #333269;
+    color: white;
+    height: 30px;
+}
+.camera__button{
+    margin-top: 30px;
+    width : 270px;
+    background-color:#333269 ;
+    color: white;
+    height: 30px;
+}
